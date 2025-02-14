@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-900 text-white mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <header class="flex justify-between items-center p-6">
+        <h1 class="text-3xl font-bold">
+            Rezwan07
+        </h1>
+        <nav>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="index.html" class="hover:text-green-500">Home</a></li>
+                <li><a href="services.html" class="hover:text-green-500">Services</a></li>
+                <li><a href="resume.html" class="hover:text-green-500">Resume</a></li>
+                <li><a href="portfolio.html" class="text-green-500">Portfolio</a></li>
+                <li><a href="contact.html" class="hover:text-green-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-6 text-center">
+        <h2 class="text-4xl font-bold mb-6">Latest <span class="text-green-400">Project</span></h2>
+        <div class="flex flex-col lg:flex-row items-center lg:items-start">
+            <div class="lg:w-1/2 text-left" id="left-section">
+                <div class="text-9xl font-bold text-gray-700" id="project-number">01</div>
+                <h3 class="text-3xl font-bold mt-4" id="project-title">Website</h3>
+                <p class="text-gray-400 mt-4" id="project-description">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Repellat tempora vel sit maiores vitae atque accusantium iste voluptate.</p>
+                <p class="text-green-400 mt-4" id="project-tech">HTML5, CSS3, JavaScript</p>
+                <hr class="border-gray-700 mt-4" />
+                <div class="flex space-x-4 mt-6">
+                    <a class="bg-gray-800 p-3 rounded-full hover:bg-gray-700" href="#"><i
+                            class="fas fa-arrow-right"></i></a>
+                    <a class="bg-gray-800 p-3 rounded-full hover:bg-gray-700" href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-6 lg:mt-0 lg:ml-6">
+                <img id="project-image"
+                    alt="Screenshot of the frontend project showing a food-related website with images of dishes and a modern design"
+                    class="rounded-lg" height="400"
+                    src="https://storage.googleapis.com/a1aa/image/9rIty29a0tR4WTaoiGOzcJMRbKoUm-3OJhmQpZpF62o.jpg"
+                    width="600" />
+            </div>
+        </div>
+    </main>
+    <footer class="flex justify-end items-center p-6">
+        <button id="prev-button" class="bg-green-500 px-4 py-2 rounded hover:bg-green-400"
+            onclick="previousProject()"><i class="fas fa-arrow-left"></i></button>
+        <button id="next-button" class="bg-green-500 px-4 py-2 rounded hover:bg-green-400 ml-4 flex items-center"
+            onclick="nextProject()"><i class="fas fa-arrow-right"></i></button>
+    </footer>
+
+    
+    <script  src="script.js"></script>
+</body>
+
+</html>

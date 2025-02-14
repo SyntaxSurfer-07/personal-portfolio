@@ -1,0 +1,189 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>My Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-900 text-white mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <header class="flex justify-between items-center p-6">
+        <h1 class="text-3xl font-bold">Rezwan07</h1>
+        <nav>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="index.html" class="hover:text-green-500">Home</a></li>
+                <li><a href="services.html" class="hover:text-green-500">Services</a></li>
+                <li><a href="resume.html" class="text-green-500">Resume</a></li>
+                <li><a href="portfolio.html" class="hover:text-green-500">Portfolio</a></li>
+                <li><a href="contact.html" class="hover:text-green-500">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-6 mx-4 lg:mx-12">
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold text-white">Why Hire Me?</h2>
+            <p class="mt-4 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sint laboriosam
+                quasi sit amet.</p>
+        </section>
+        <section class="flex flex-col lg:flex-row">
+            <aside class="lg:w-1/4 mb-6 lg:mb-0">
+                <div class="space-y-4">
+                    <!-- <button id="experience-btn" onclick="showSection('experience')"
+                        class="nav-button w-full py-5 px-4 bg-gray-800 rounded-md hover:bg-gray-700 border border-green-500 text-green-500">Experience</button> -->
+                    <button id="education-btn" onclick="showSection('education')"
+                        class="nav-button w-full py-5 px-4 bg-gray-800 rounded-md hover:bg-gray-700 border border-green-500 text-green-500">Education</button>
+                    <button id="skills-btn" onclick="showSection('skills')"
+                        class="nav-button w-full py-5 px-4 bg-gray-800 rounded-md hover:bg-gray-700">Skills</button>
+                    <button id="about-btn" onclick="showSection('about')"
+                        class="nav-button w-full py-5 px-4 bg-gray-800 rounded-md hover:bg-gray-700">About Me</button>
+                </div>
+            </aside>
+            <div class="lg:w-3/4 lg:pl-6">
+                <!-- <div id="experience" class="section">
+                    <h2 class="text-4xl font-bold mb-4">My <span class="text-green-500">Experience</span></h2>
+                    <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus aliquam
+                        commodi sed excepturi incidunt odio ratione voluptatibus, officiis sit.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2023 - Present</p>
+                            <h3 class="text-2xl font-bold mb-2">Frontend Developer</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Abc Corp.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero ab laboriosam.</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2022 - 2023</p>
+                            <h3 class="text-2xl font-bold mb-2">Full Stack Developer</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Google</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero ab laboriosam.</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2021 - 2022</p>
+                            <h3 class="text-2xl font-bold mb-2">Backend Developer</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> YouTube</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero ab laboriosam.</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2020 - 2021</p>
+                            <h3 class="text-2xl font-bold mb-2">Frontend Developer</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Xyz Inc.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero ab laboriosam.</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div id="education" class="section">
+                    <h2 class="text-4xl font-bold mb-4">My <span class="text-green-500">Education</span></h2>
+                    <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus aliquam
+                        commodi sed excepturi incidunt odio ratione voluptatibus, officiis sit.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2024 - Present</p>
+                            <h3 class="text-2xl font-bold mb-2">Master's in Information Technology</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Shahjalal University of Science and Technology
+                            </p>
+                            <p>Sylhet</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2019 - 2023</p>
+                            <h3 class="text-2xl font-bold mb-2">B.Sc. in Computer Science & Engineering</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Leading University</p>
+                            <p>Sylhet</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2017</p>
+                            <h3 class="text-2xl font-bold mb-2">HSC</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Sylhet Science & Technology College</p>
+                            <p>Sylhet</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg card hover:bg-gray-700">
+                            <p class="text-green-500">2015</p>
+                            <h3 class="text-2xl font-bold mb-2">SSC</h3>
+                            <p class="text-green-500 mb-2"><i class="fas fa-circle text-xs"></i> Osmani Medical High School</p>
+                            <p>Sylhet</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="skills" class="section hidden">
+                    <h2 class="text-4xl font-bold mb-4">My <span class="text-green-500">Skills</span></h2>
+                    <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus aliquam
+                        commodi sed excepturi incidunt odio ratione voluptatibus, officiis sit.</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fab fa-html5 fa-3x"></i>
+                            <span class="tooltiptext">HTML</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fab fa-css3-alt fa-3x"></i>
+                            <span class="tooltiptext">CSS</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fab fa-js fa-3x"></i>
+                            <span class="tooltiptext">JavaScript</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fab fa-react fa-3x"></i>
+                            <span class="tooltiptext">React</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fab fa-vuejs fa-3x"></i>
+                            <span class="tooltiptext">Vue.js</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fas fa-wind fa-3x"></i>
+                            <span class="tooltiptext">Tailwind</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fab fa-node-js fa-3x"></i>
+                            <span class="tooltiptext">Node.js</span>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg flex justify-center items-center tooltip">
+                            <i class="fas fa-leaf fa-3x"></i>
+                            <span class="tooltiptext">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="about" class="section hidden">
+                    <h2 class="text-4xl font-bold mb-4">About <span class="text-green-500">Me</span></h2>
+                    <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus aliquam
+                        commodi sed excepturi incidunt odio ratione voluptatibus, officiis sit.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Name:</span> Md. Abdullah Ar Rezwan</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Email:</span> abdullaharrezwan267@gmail.com</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Phone:</span> (+88) 01715142945</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Gender:</span> Male</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Status:</span> Single</p>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">City:</span> Sylhet</p>
+                        </div>
+                        <!-- <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Age:</span> 32 Years Old</p>
+                        </div> -->
+                        <!-- <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Nationality:</span> Bangladeshi</p>
+                        </div> -->
+                        <div class="bg-gray-800 p-6 rounded-lg">
+                            <p><span class="text-green-500">Languages:</span> Bengali, English</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

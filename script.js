@@ -1,6 +1,6 @@
 // Home js Start here
 
-const roles = ["Web Developer", "QA Enthusiasts"];
+const roles = ["Web Developer", "Tech Enthusiasts"];
     let currentRoleIndex = 0;
     let currentCharIndex = 0;
     const dynamicText = document.getElementById("dynamic-text");
